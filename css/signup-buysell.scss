@@ -1,0 +1,390 @@
+$primary-main:#ff5747;
+$primary-black:#000;
+$primary-white:#fff;
+$primary-lightwhite:#f5f5f5;
+h1,h2,h3,h4,h5,p{
+    font-family: 'Open Sans', sans-serif!important;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.signup-buysell{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #f7f7f7;
+}
+.signup-byusell__head-top{
+    width: 100%;
+    background-color: $primary-black;
+    height: 60px;
+}
+.signup-byusell__head-top .logo img{
+    padding: 15px 0px;
+}
+.signup-buysell__countsell{
+    position: relative;
+    display: inline-block;
+}
+.countdown{
+    background: $primary-main;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: $primary-white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em; 
+    top: -45%;
+    position: absolute;
+  }
+
+  .signup-byusell__links .links-li{
+      display: inline-block;
+      padding:15px 0px;
+      margin-left:60px;
+  }
+  .signup-byusell__links li i{
+      color: $primary-white;
+      font-size: 18px;
+  }
+  .signup-buysell__countsell img{
+      width: 20px;
+      height: 20px;
+  }
+  .signup-buysell #dropdown { 
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.55em;
+    font-weight: normal;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+  }
+  .signup-buysell #dropdown:hover { color: #898989; }
+  .signup-buysell #dropdown img{
+      width: 25px;
+      height: 25px;
+   }
+   .signup-buysell #dropdown.open {
+    color: $primary-white;
+    border-left-color: #6c6d70;
+  }
+  .signup-buysell #dropdown img{
+      margin-right: 7px;
+  }
+  .signup-buysell #dropdown ul { 
+    position: absolute;
+    text-align: left;
+    box-shadow: 0px 0px 6px -2px #8e8888;
+    top: 100%;
+    width: 165px;
+    z-index: 10;
+    left: -112px;
+    height: auto;
+    top: 50px;
+    padding: 5px 0px;
+    border-radius: 3px;
+    display: none;
+    background: rgba(0,0,0,0.6);
+  }
+  .signup-buysell #dropdown ul li { font-size: 0.9em; list-style: none;}
+  
+  .signup-buysell #dropdown ul li a { 
+    text-decoration: none;
+    display: block;
+    color: $primary-white;
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+ .signup-buysell #dropdown ul li a:hover {
+    color: $primary-white;
+    background:$primary-main;
+  }
+
+  .signup-buysell__wrapper{
+      margin-top: 50px;
+  }
+  .signup-buysell__wrapper .title-wrapper{
+      margin-bottom: 30px;
+  }
+  .signup-buysell__wrapper .title-wrapper h1{
+      font-size: 36px;
+      font-weight: 700;
+      color:$primary-main;
+  }
+  .signup-buysell__wrapper .title-wrapper p{
+    font-size: 18px;
+    font-weight: 600;
+    color:$primary-black;
+}
+
+.signup-buysell__inner-wrapper{
+    background:$primary-white;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    color: $primary-black;
+    transition: all 0.4s ease-in-out;
+}
+.buysell-secondwrapper{
+    background: $primary-main;
+    color: $primary-white;
+}
+
+.signup-buysell__inner-wrapper h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.signup-buysell__inner-wrapper p{
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.signup-buysell__inner-wrapper a{
+    color: $primary-black;
+}
+.buysell-secondwrapper a{
+    color:$primary-white;
+}
+.signup-buysell__inner-wrapper i{
+    align-items: center;
+    top:50%;
+    right: 5%;
+    position: absolute;
+    font-size:22px;
+}
+.signup-buysell__inner-wrapper img{
+    height: 120px;
+    transform: scale(1);
+}
+.signup-buysell__inner-wrapper:hover .signup-buysell__inner-wrapper img{
+    transform: scale(23);
+}
+.bottom-img img{
+    margin-top: 30px;
+    height: 300px;
+}
+
+@media only screen and (max-width:360px) {
+    .signup-byusell__links .links-li {
+        margin-left: 25px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 24px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 18px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper img {
+        width: 100%;
+        height: 100px;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media all and (min-width:360px) and (max-width:480px){
+    .signup-byusell__links .links-li {
+        margin-left: 30px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 24px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 18px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media all and (min-width:340px) and (max-width:560px){
+    .signup-byusell__links .links-li {
+        margin-left: 35px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 26px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 20px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 16px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media all and (min-width:560px) and (max-width:768px){
+    .signup-byusell__links .links-li {
+        margin-left: 40px;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 30px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 26px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 16px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media all and (min-width:768px) and (max-width:992px){
+    .signup-byusell__links .links-li {
+        margin-left: 40px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 34px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 23px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 16px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media all and (min-width:992px) and (max-width:1280px){
+    .signup-byusell__links .links-li {
+        margin-left: 40px;
+    }
+    .signup-buysell__wrapper .title-wrapper h1 {
+        font-size: 34px;
+    }
+    .signup-buysell__wrapper .title-wrapper p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .signup-buysell__wrapper {
+        margin-top: 15px;
+    }
+    .signup-buysell__inner-wrapper h3 {
+        font-size: 23px;
+    }
+    .signup-buysell__inner-wrapper p{
+        font-size: 17px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .signup-buysell__inner-wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .bottom-img img {
+        margin-top: 10px;
+    }
+    .countdown {
+        width: 20px;
+        height: 20px;
+    }
+}

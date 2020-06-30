@@ -1,0 +1,383 @@
+@media all and (min-width:320px) and (max-width:480px){
+	.explore-popular-beats__wrapper .col-xs-9{
+		width: 100%!important;
+	}
+}
+@media only screen and (max-width:600px) {
+  .dis-none{
+  	display: none
+  }
+  .txt-center{
+  	text-align: center!important;
+  }
+  .mv-text-left{
+  	text-align: left!important
+  }
+    .common_title {
+ 		font-size: 26px!important
+ 	}
+ 	.mv-mt-20{
+ 		margin-top: 20px
+ 	}
+	 section{
+		 padding: 30px 0px!important;
+	 }
+ /***********Navbar******************/
+	.navigation__wrapper {
+		padding: 10px 0px!important;
+		line-height: 0px!important;
+	}
+	.navigation__buttons{
+		margin-top: 15px;
+	}
+  	.navigation__count {
+ 		margin-top: -20px;
+ 	}
+	.navigation .navigation__buttons li a {
+ 		font-size: 13px!important;
+ 		padding: 4px 3px!important;
+ }
+ /**************Home**********************/
+ 	.home{
+		 margin-top: 70px;
+	 }
+ 	.home:after {
+		 visibility: hidden;
+	 }
+	 .home__content-wrapper .home__content-wrapper-one {
+		width: 100%!important;
+		padding-top: 23px!important;
+		padding-bottom: 23px;
+	}
+ 	.home__searchbar input {
+ 		height: 40px!important
+ 	}
+ 	.home__content-wrapper .home__content-wrapper-one p {
+ 		font-size: 17px!important;
+ 		line-height: 18px!important;
+ 		margin:17px 0!important; 
+ 	}
+ 	.home__content-wrapper .home__content-wrapper-one h1 {
+ 		font-size: 36px!important;
+ 		line-height: 32px!important
+ 	}
+ 	.home__popular-search ul li {
+ 		line-height: 45px;
+ 	}
+/***********explor-by-genres***************/
+	.col-md-15 {
+ 		width: 50%!important;
+ 		margin-left: 0px!important;
+ 		margin-right: 0px!important;
+ 		border-radius: 0px;
+ 		text-align: center;
+ 		margin-bottom:0px!important;
+ 		border-bottom: 1px solid #d6d6d6;
+ 	}
+ 	.col-md-15:nth-child(even){
+ 		border-left: 1px solid #d6d6d6;
+	 }
+	 .explore-popular-beats {
+		 padding-bottom: 115px!important;
+	 }
+	.explor-by-genres__wrapper {
+		padding: 10px!important;
+		border-radius: 0px!important;
+	}
+	.explor-by-genres__wrapper h3 {
+		font-size: 16px!important;
+	}
+/*************explor-the-market**************/
+	.explor-the-market__link a {
+		padding: 8px 12px!important;
+		font-size: 12px;
+	}
+	.explor-the-market__wrapper h3 {
+		font-size: 26px!important;
+	}
+	.explor-the-market__wrapper{
+		margin-bottom: 20px;
+	}
+/****************explore-popular-beats*******************/	
+	.explore-popular-beats__content h4 {
+		font-size:21px!important;
+	}
+	.explore-popular-beats__wrapper {
+		padding: 15px!important
+	}
+	.sell-beats h2{
+		font-size: 24px!important
+	}
+/**************why-produsic******************/
+	.why-produsic {
+		padding: 60px 0px!important;
+	}
+	.why-produsic p {
+		font-size: 15px!important;
+		margin-top: 30px!important;
+	}
+	.why-produsic__title {
+		font-size: 26px!important
+	}
+/*************sell-beats********************/
+	.sell-beats {
+		padding: 60px 0px!important;
+	}
+	.explor-the-market__link span {
+		padding: 8px 4px!important;
+	}
+	
+	.How-it-works__wrapper h4 {
+		font-size: 24px!important;
+	}
+	.How-it-works__wrapper p{
+		font-size: 15px!important;
+	}
+	.explore-popular-beats__content {
+		margin-left: 7px!important;
+	}
+	.explore-popular-beats__category li a {
+		font-size: 13px!important;
+	}
+	footer {
+		padding-top: 25px!important
+	}
+	footer .footer-wrapper__title{
+		font-size: 20px!important;
+	}
+	footer .footer-bottom {
+		padding: 10px 0px!important;
+	}
+	footer .footer-bottom__link li{
+		line-height: 28px;
+		margin-left: 0px!important;
+		padding: 0px 8px;
+	}
+	footer .br-bottom {
+		padding-bottom: 25px!important;
+	}
+}
+
+@media all and (min-width:601px) and (max-width:768px){
+  .txt-left-768{
+	  text-align: left!important;
+  }
+  .txt-center-768{
+	  text-align: center!important;
+  }
+   .common_title {
+ 		font-size: 26px!important
+ 	}
+	 section{
+		 padding: 40px 0px!important;
+	 }
+ /***********Navbar******************/
+	.navigation__wrapper {
+		padding:41px 0px!important;
+		line-height: 0px!important;
+	}
+	.logo{
+		margin-top:-10px;
+	}
+  	.navigation__count {
+ 		margin-top: -20px;
+ 	}
+ 	 .navigation__buttons li a {
+		font-size: 15px!important;
+		padding: 4px 8px!important;
+ 	}
+/*************Home*********************/
+	.home__content-wrapper .home__content-wrapper-one h1 {
+		font-size:42px!important;
+		line-height: 38px!important
+	}
+	.home__content-wrapper .home__content-wrapper-one p {
+		font-size: 15px!important;
+		margin: 17px 0px!important;
+		line-height: 17px!important;
+	}
+	.home__popular-search ul li {
+		line-height: 45px!important
+	}
+	.home__content-wrapper .home__content-wrapper-one {
+		padding-top:97px!important;
+		margin-top: 0px!important;
+	}
+	.home__searchbar input {
+		height: 40px!important
+	}
+	.home__content-wrapper-two img {
+		width: 100%;
+		height: 450px!important;
+	}
+/***************Explore-by-Genres*****************/
+	.col-md-15 {
+		width:30%!important;
+		margin-left: 9px!important;
+		margin-right: 9px!important;
+	}
+	.why-produsic {	
+		padding-top: 55px!important;
+	}
+	.explor-the-market__wrapper, .How-it-works__wrapper{
+		margin-bottom: 20px!important;
+	}
+	.explore-popular-beats .explor-btn {
+		width: 50%!important;
+	}
+	footer .footer-bottom{
+		padding: 12px 0px!important;
+	}
+	footer{
+		padding-top: 50px!important;
+	}
+	footer .footer-bottom__link li {
+		margin-left: 10px!important;
+	}
+}
+
+
+@media all and (min-width:769px) and (max-width:992px){
+	.txt-left-992{
+		text-align: left!important;
+	}
+	.txt-right-992{
+		text-align: right!important;
+	}
+	.mv-mt-20{
+		margin-top: 0px!important
+	}
+   .common_title {
+ 		font-size: 26px!important
+ 	}
+ 	.mv-mt-20{
+ 		margin-top: 20px
+	 }
+	 section{
+		 padding: 45px 0px!important;
+	 }
+/*************Home*********************/
+	.home__content-wrapper .home__content-wrapper-one h1 {
+		font-size:40px!important;
+		line-height:37px!important
+	}
+	.home__content-wrapper .home__content-wrapper-one p {
+		font-size: 15px!important;
+		margin: 18px 0px!important;
+	}
+	.home__popular-search ul li {
+		line-height: 45px!important
+	}
+	.home__searchbar input {
+		height: 40px!important
+	}
+	.home__content-wrapper-one {
+		padding-top: 80px!important;
+	}
+	.home__content-wrapper .home__content-wrapper-two img{
+		height: 443px!important;
+	}
+	/***************Explore-by-Genres*****************/
+	.col-md-15 {
+		width: 30%!important
+	}
+	.why-produsic {
+		padding-top: 55px!important;
+	}
+	.explore-popular-beats {
+		padding-bottom: 100px!important;
+	}
+	.explor-the-market__hover-one, .explor-the-market__wrapper {
+		margin-bottom: 20px!important;
+	}
+	footer{
+		padding-top: 50px!important;
+	}
+	.footer-wrapper .footer-wrapper__title {
+		font-size: 22px!important
+	}
+	.footer-bottom__link li {
+    	margin-left: 15px!important;
+	}
+	.footer-bottom__link li a, .footer-bottom p {
+		font-size: 13px!important
+	}
+}
+
+
+@media all and (min-width:993px) and (max-width:1300px){
+	.txt-left-1300{
+		text-align: left!important;
+	}
+	.txt-right{
+		text-align: right!important;
+	}
+	.mv-mt-20{
+		margin-top: 0px!important
+	}
+   .common_title {
+ 		font-size: 26px!important
+ 	}
+ 	.mv-mt-20{
+ 		margin-top: 20px
+ 	}
+ 	section{
+ 		padding: 50px 0px!important;
+ 	}
+/************Home******************/
+	.home__content-wrapper-two img {
+		 height: none!important;
+	 	margin-top:55px!important;
+	 }
+	.home__content-wrapper .home__content-wrapper-one h1 {
+		font-size: 70px!important;
+		line-height: 62px!important;
+	}
+	.home__content-wrapper .home__content-wrapper-one p {
+		font-size: 16px!important
+	}
+	.home__popular-search ul li {
+    	line-height:45px;
+	}
+
+ 	.explore-popular-beats__content {
+ 		padding-left: 10px!important
+	 }
+	 .explor-the-market__wrapper {
+		 height: 365px!important;
+	 }
+
+ 	.col-md-15 {
+ 		width:17%!important
+	 }
+	 .explore-popular-beats {
+		 padding-bottom: 115px!important;
+	 }
+
+ 	.explor-the-market__link a {
+	 	font-size: 13px!important;
+	    padding: 8px 8px!important;
+	    border-radius: 5px!important;	
+	}
+	.explor-the-market__wrapper {
+		padding: 25px  30px!important;
+	}
+	.explor-the-market__wrapper h3 {
+		font-size: 24px!important;
+	}
+	.explore-popular-beats__bottomcategory li{
+		margin-right: 5px!important;
+	}
+	.explore-popular-beats__category li a {
+		font-size: 13px!important;
+	}
+	footer{
+		padding-top: 40px!important
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.home .home-first-wrapper {
+		padding-left: 720px!important;
+	}
+  }

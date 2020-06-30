@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Produsic - Sign Up</title>
+</head>
+<body>
+    <div class="sign-up-header">
+        <div class="sign-up-header__top-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sign-up-header__logo">
+                            <a href="#"><img src="img/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+        <div class="container sigup-container">
+            <div class="sign-up-header__login-wrapper text-center">
+                <h3 class="sign-up-header__title">Sign Up!</h3>
+                <h5>with your phone number!</h5>
+                <form action="#">
+                    <div class="sign-up-header__inputwrapper">      
+                          <input type="text" placeholder="Full Name" class="fullname"> 
+                          <div class="country-code">
+                            <div class="select-mno">
+                                  <span class="country-click">XK + 383</span>
+                                  <input type="text" placeholder="Phone Number">
+                             </div>
+                             <div id="dropdown" class="ddmenu">
+                                 <ul>
+                                   <li>XK + 384</li>
+                                 </ul>
+                             </div>
+                        </div>
+                   </div>
+                    <div class="sign-up-header__term-services text-left">
+                            <input type="radio" name="terms" value="accept" required>
+                            <h6>I have read and agree to the 
+                                <a href="#"> Terms of Service & 
+                                    Privacy Policy.
+                                </a>
+                            </h6>
+                    </div>
+                <button class="signup-btn" type="submit">Next</button>
+            </form>
+                <h6>Already have an account? <a href="#">Log In </a</h6>
+            </div>
+       
+            <div class="sign-up-header__main-img">
+                <img  src="img/main-img.png" alt="Main Img" >
+            </div>
+        </div>                      
+</div>  
+<script src="js/jqurey.js"></script>
+<script src="js/otp.js"></script>
+<script src="js/drodown.js"></script>
+<script>
+    $(document).ready(function(){
+     $("sign-up-header__term-services input[name='terms']").change(function(){
+         if($(this).val() == "accept"){
+             alert(" I have read and agree to the Terms and Conditions and Privacy Policy.");
+         }
+     })
+    });
+ </script>
+</body>
+</html>

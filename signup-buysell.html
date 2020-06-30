@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <title>Produsic - Buy Sell</title>
+</head>
+<body>
+         <div class="signup-buysell">
+             <div class="signup-byusell__head-top">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-3 col-xs-3 logo">
+                             <a href=""><img src="img/logo.png" alt="Logo"></a>
+                         </div>
+                         <div class="col-lg-9 col-xs-9 text-right">
+                             <ul class="signup-byusell__links">
+                                <li class="links-li">
+                                    <div class="signup-buysell__countsell">
+                                        <img src="img/cart.png" alt="Cart">
+                                        <span class="countdown">1</span>
+                                    </div> 
+                                </li>
+                                <li class="links-li">
+                                    <div class="signup-buysell__countsell">
+                                        <img src="img/notifiication.png" alt="Notification">
+                                        <span class="countdown">1</span>
+                                    </div> 
+                                </li>
+                                <li class="links-li">
+                                    <div id="dropdown" class="ddmenu">
+                                     <img src="img/user-ico.png" alt="User"><i class="fas fa-angle-down"></i>
+                                        <ul>
+                                          <li><a href="#">My Profile</a></li>
+                                          <li><a href="#">Friend Requests</a></li>
+                                          <li><a href="#">Account Settings</a></li>
+                                          <li><a href="#">Support</a></li>
+                                          <li><a href="#">Log Out</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="signup-buysell__wrapper">
+                 <div class="container">
+                     <div class="row text-center title-wrapper">
+                         <div class="col-xs-12">
+                             <h1>Congratulations <span class="name"> Clirim!</span></h1>
+                             <p>You are one step ahead to become apart of us!</p>
+                         </div>
+                     </div>
+
+                     <div class="row">
+<!----------------I Want to buy music -------------------->
+                         <div class="col-sm-6">
+                             <div class="signup-buysell__inner-wrapper">
+                                 <div class="row">
+                                     <div class="col-xs-10 text-left">
+                                         <img src="img/buymusic.png" alt="Buy Music">
+                                         <h3>I want to Buy Music</h3>
+                                         <p>
+                                            You will be able to buy beats from producers and also interact with them in order for your project to be as professional as needed.
+                                         </p>
+                                     </div>
+                                     <a href="#"><i class="fas fa-chevron-right"></i></a>
+                                 </div>
+                             </div>
+                         </div>
+<!----------------I Want to Sell music -------------------->
+                            <div class="col-sm-6">
+                                <div class="signup-buysell__inner-wrapper buysell-secondwrapper">
+                                    <div class="row">
+                                        <div class="col-xs-10 text-left">
+                                            <img src="img/sell-music.png" alt="Buy Music">
+                                            <h3>I want to Buy Music</h3>
+                                            <p>
+                                                After joining the platform you will be able to upload your work as a showcase for your professional career and also sell your work on Produsic.
+                                            </p>
+                                        </div>
+                                        <a href="#"> <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                            </div>
+                         </div>
+                     </div>
+
+                     <div class="row">
+                         <div class="col-xs-12 text-center">
+                             <div class="bottom-img">
+                                 <img src="img/main-img.png" alt="Main IMG">
+                             </div>
+                         </div>      
+                     </div>
+                 </div>
+             </div>
+         </div> 
+
+
+<script src="js/jqurey.js"></script>
+         <script>
+             $(document).ready(function(){
+                $("#dropdown").on("click", function(e){
+                    e.preventDefault();
+                    if($(this).hasClass("open")) {
+                        $(this).removeClass("open");
+                        $(this).children("ul").slideUp("fast");
+                    } else {
+                        $(this).addClass("open");
+                        $(this).children("ul").slideDown("fast");
+                    }
+                    });
+             })
+         </script>
+</body>
+</html>
