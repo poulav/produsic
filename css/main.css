@@ -6688,7 +6688,7 @@ input:focus {
     bottom: 0;
     right: 30%; }
     .sign-in-header__main-img img {
-      height: 500px; }
+      height: 100vh; }
 
 .signup-btn {
   margin-top: 20px;
