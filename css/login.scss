@@ -100,11 +100,11 @@ input:focus{
         }
     }
     &__main-img {
-            position: absolute;
+            position: inherit;
             bottom: 0;
             right: 30%;
         img{
-            height: 100vh;
+            height: 100%;
         }
     }
 }

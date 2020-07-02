@@ -6684,11 +6684,11 @@ input:focus {
       margin: 0px 0px 0px 20px;
       display: inline; }
   .sign-in-header__main-img {
-    position: absolute;
+    position: inherit;
     bottom: 0;
     right: 30%; }
     .sign-in-header__main-img img {
-      height: 100vh; }
+      height: 100%; }
 
 .signup-btn {
   margin-top: 20px;
@@ -7022,13 +7022,11 @@ button:focus {
       margin: 0px 0px 0px 20px;
       display: inline; }
   .sign-up-header__main-img {
-    position: absolute;
+    position: inherit;
     bottom: 0;
-    z-index: 2;
-    right: 50%;
-    transform: translateX(100%); }
+    right: 30%; }
     .sign-up-header__main-img img {
-      height: 500px; }
+      height: 100%; }
 
 .sign-up-header__login-wrapper .sign-up-header__term-services input {
   position: relative; }
