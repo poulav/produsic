@@ -35,7 +35,7 @@ button:focus{
         color: $primary-main;
     }
     &__login-wrapper{
-        width: 35%;
+        width: 100%;
         padding: 30px;
         background-color:$primary-white;
         margin-top: 100px;
@@ -81,14 +81,14 @@ button:focus{
         }
     }
     &__main-img {
-        position: absolute;
+        position: inherit;
         bottom: 0;
         z-index:2;
-        right: 50%;
-        transform: translateX(100%);
+        // right: 50%;
+        // transform: translateX(100%);
 
         img{
-            height: 500px;
+            height: 100%;
         }
     }
 }
@@ -213,7 +213,7 @@ button:focus{
     text-align: left;
     box-shadow: 0px 0px 6px -2px #8e8888;
     top: 100%;
-    width: 165px;
+    width: 100%;
     z-index: 10;
     height: auto;
     top: 50px;
@@ -292,7 +292,7 @@ button:focus{
         display: none;
     }
     .sign-up-header__login-wrapper {
-        width: 75%;
+        width: 100%;
         margin: 60px auto;
     }
     .sigup-container{
@@ -310,7 +310,7 @@ button:focus{
         display: none;
     }
     .sign-up-header__login-wrapper{
-        width: 60%;
+        width: 100%;
         margin: 60px auto;
     }
     .sign-up-header__main-img img {
@@ -326,7 +326,7 @@ button:focus{
 }
 @media all and (min-width:768px) and (max-width:992px){
     .sign-up-header__login-wrapper {
-        width: 50%;
+        width: 100%;
     }
     .sign-up-header__main-img img {
         height: 490px;
@@ -335,7 +335,7 @@ button:focus{
 
 @media all and (min-width:992px) and (max-width:1280px){
     .sign-up-header__login-wrapper {
-        width: 42%;
+        width: 100%;
     }
     .sign-up-header__main-img img {
         height: 490px;
