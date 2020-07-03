@@ -1,0 +1,101 @@
+.form-white-bg{
+    background: #838383;
+    border-radius: 10px;
+}
+
+.sign-up-header{
+	&__inputwrapper{
+		.bg-white{
+			background: #fff !important;
+		}
+	}
+	&__buy-img{
+		height: 100%;
+    	margin: 33% 5%;
+    	img{
+    		width: 100%;
+    	}
+	}
+	&__inputbtnwrapper{
+		height: 300px;
+    	overflow-y: auto;
+    	.btn-group .btn{
+    		width: auto !important;
+		    padding: 8px 30px !important;
+		    margin-left: 5px !important;
+    	}
+	}
+}
+
+.btn-outline-danger:hover {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+.btn-outline-danger {
+    color: #dc3545 !important; 
+    background: #fff !important;
+    background-image: none !important;
+    border-color: #dc3545 !important;
+    box-shadow: none !important;
+}
+
+
+@media only screen and (max-width:360px) {
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }
+}
+
+@media all and (min-width:360px) and (max-width:480px){
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }  
+}
+
+@media all and (min-width:480px) and (max-width:550px){
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }
+
+}
+@media all and (min-width:550px) and (max-width:640px){
+  
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }
+}
+@media all and (min-width:640px) and (max-width:768px){
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }
+
+}
+@media all and (min-width:768px) and (max-width:1024px){
+    
+    .welcome-page__login-wrapper{
+        padding: 5px !important;
+    }
+    .col-sm-12, .col-sm-6{
+        padding: 0 !important;
+    }
+}
+@media all and (min-width:1024px) and (max-width:1280px){
+  
+
+}

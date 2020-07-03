@@ -88,7 +88,11 @@ button:focus{
         // transform: translateX(100%);
 
         img{
-            height: 100%;
+            width: auto;
+            height: 80vh;
+            bottom: 0;
+            position: fixed;
+            bottom: 0;
         }
     }
 }
@@ -314,7 +318,7 @@ button:focus{
         margin: 60px auto;
     }
     .sign-up-header__main-img img {
-        height: 427px;
+        height: unset;
     }
     .sign-up-header__login-wrapper h5 {
         font-size: 16px;

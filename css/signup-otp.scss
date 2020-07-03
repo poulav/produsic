@@ -38,7 +38,7 @@ input:focus{
         background: #000;
     }
     &__login-wrapper{
-        width: 35%;
+        width: 100%;
         padding: 30px;
         background-color:#fafafa;
         margin-top: 100px;
@@ -111,14 +111,18 @@ input:focus{
         }
     }
     &__main-img {
-        position: absolute;
+        position: inherit;
         bottom: 0;
         z-index:2;
-        right: 50%;
-        transform: translateX(100%);
+        // right: 50%;
+        // transform: translateX(100%);
 
         img{
-            height: 500px;
+            width: auto;
+            height: 80vh;
+            bottom: 0;
+            position: fixed;
+            bottom: 0;
         }
     }
 }
@@ -316,7 +320,7 @@ input:focus{
       display:none;
     }
     .sign-upotp-header__login-wrapper {
-        width: 80%;
+        width: 100%;
         margin:40px auto;
         padding: 10px;
     }
@@ -337,7 +341,7 @@ input:focus{
       display:none;
     }
     .sign-upotp-header__login-wrapper {
-        width: 70%;
+        width: 100%;
         margin:40px auto;
         padding: 10px;
     }
@@ -358,7 +362,7 @@ input:focus{
       display:none;
     }
     .sign-upotp-header__login-wrapper {
-        width: 60%;
+        width: 100%;
         margin:40px auto;
         padding: 10px;
     }
@@ -376,7 +380,7 @@ input:focus{
 }
 @media all and (min-width:768px) and (max-width:1024px){
     .sign-upotp-header__login-wrapper {
-        width:50%;
+        width:100%;
         padding: 10px;
     }
     .select-mno span {
@@ -386,10 +390,10 @@ input:focus{
         width: 65%;
     }
     .sign-upotp-header__main-img img{
-        height: 435px;
+        
     }
     .sign-upotp-header__main-img {
-        right: 45%;
+        
     }
     .otp input {
       margin-right: 8px;
@@ -399,7 +403,7 @@ input:focus{
 }
 @media all and (min-width:1024px) and (max-width:1280px){
   .sign-upotp-header__login-wrapper {
-      width:43%;
+      width:100%;
       padding: 10px;
   }
   .select-mno span {
@@ -409,10 +413,10 @@ input:focus{
       width: 75%;
   }
   .sign-upotp-header__main-img img{
-      height: 500px;
+      
   }
   .sign-upotp-header__main-img {
-      right: 45%;
+     
   }
   .otp input {
     margin-right: 8px;

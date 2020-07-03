@@ -100,11 +100,18 @@ input:focus{
         }
     }
     &__main-img {
-            position: inherit;
-            bottom: 0;
-            right: 30%;
+        position: inherit;
+        bottom: 0;
+        z-index:2;
+        // right: 50%;
+        // transform: translateX(100%);
+
         img{
-            height: 100%;
+            width: auto;
+            height: 80vh;
+            bottom: 0;
+            position: fixed;
+            bottom: 0;
         }
     }
 }
@@ -417,10 +424,10 @@ input:focus{
         right:15%!important;
     }
     .sign-in-header__main-img img{
-        height: 500px;
+        
     }
     .sign-upotp-header__main-img {
-        right: 45%;
+        
     }
     .otp input {
       margin-right: 8px;
