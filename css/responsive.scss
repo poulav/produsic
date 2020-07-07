@@ -1,4 +1,7 @@
 @media all and (min-width:320px) and (max-width:480px){
+	.home__content-wrapper-one{
+		margin-top:0 !important;
+	}
 	.explore-popular-beats__wrapper .col-xs-9{
 		width: 100%!important;
 	}
@@ -7,6 +10,9 @@
   .dis-none{
   	display: none
   }
+  .home__content-wrapper-one{
+		margin-top:0 !important;
+	}
   .txt-center{
   	text-align: center!important;
   }
@@ -162,6 +168,9 @@
   .txt-left-768{
 	  text-align: left!important;
   }
+  .home__content-wrapper-one{
+		margin-top:0 !important;
+	}
   .txt-center-768{
 	  text-align: center!important;
   }

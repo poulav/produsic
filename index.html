@@ -8,8 +8,9 @@
 <!--Font Awesome--------->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <link rel="stylesheet" href="css/main.css">  
-        <link rel="stylesheet" href="css/nav.css">
+        <!-- <link rel="stylesheet" href="css/nav.css"> -->
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <title>Produsic</title>
     </head>
 <body>
@@ -42,8 +43,21 @@
       </div>
       <div class="overlay-menu">
 <!-----------------------------Mobile Navbar----------------->
-        <ul id="menu">
+        <ul id="menu" class="nav nav-pills nav-list">
                 <div class="overlay-menu-link">
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">About</a></li>
+                    <li>
+                       <a href="#" class="dropdown-toggle mobile-dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                       <ul class="dropdown-dropdown" id="mobile-menu" style="display: none;">
+                           <li><a href="#!">Demo</a></li>
+                           <li><a href="#!">Demo</a></li>
+                           <li><a href="#!">Demo</a></li>
+                       </ul>
+                       
+                   </li>
+                    <li><a href="#!">Pricing</a></li>
+                    <li><a href="#!">Contact</a></li>
                     <li><a href="#">How it works</a></li>
                     <li><a href="#">Log In </a></li>
                     <li><a href="#">Sign Up</a></li>
@@ -52,8 +66,41 @@
       </div>
 <main>
         <div class="home">
+            
             <div class="home__content-wrapper">
-                <div class="container">
+                
+                <div class="navigation__navbar contaier-fluid navigation__navbar_sticky dis-non" id="static-navbar">
+                    <div class="container">
+                        <nav>
+                       <ul class="nav-list">
+                           <li><a href="#!">Home</a></li>
+                           <li><a href="#!">About</a></li>
+                           <!-- <li>
+                               <a href="#!">Services</a>
+                               <ul class="nav-dropdown">
+                                   <li><a href="#!">Demo</a></li>
+                                   <li><a href="#!">Demo</a></li>
+                                   <li><a href="#!">Demo</a></li>
+                               </ul>
+                               
+                           </li> -->
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#!">Demo</a></li>
+                               <li><a href="#!">Demo</a></li>
+                               <li><a href="#!">Demo</a></li>
+                              </ul>
+                            </li>
+                           <li><a href="#!">Pricing</a></li>
+                           <li><a href="#!">Contact</a></li>
+                       </ul>
+                       </nav>
+
+
+                    </div>
+                    </div>
+                <div class="container home_container_section">
                     <div class="home__content-wrapper-one">
                         <h1>Make it<br> sound good!</h1>
                         <p>
@@ -646,6 +693,7 @@
         </footer>
     </main>
 <script src="js/jqurey.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/navbar.js"></script>
 <script>
     $(document).ready(function(){
@@ -658,6 +706,9 @@
             $(this).css("display","none");
             $(".play-btn").css("display","block");
             $(this).parent().css("box-shadow","none");
+        });
+        $(".mobile-dropdown-toggle").click(function(e){
+          $("#mobile-menu").toggle();
         });
     });
 </script>
