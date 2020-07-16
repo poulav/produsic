@@ -267,6 +267,7 @@ body{
         padding:70px 30px;
         border-radius: 10px;
         height: 400px;
+        transition: all 0.6s ease-in-out;
         h3{
             margin-top: 50px;
             font-weight: 700;
@@ -305,50 +306,50 @@ body{
             padding: 8px 15px;
         }
     }
-    .fixedbg{
-        background:$primary-main;
-        color: $primary-white;
+    .beats-wrapp{
         position: relative;
         z-index: 1;
     }
-    .fixedbg:after{
-            content:'';
-            height:150px;
-             width:50%;
-            background:url('../img/explor-bg.jpg');
-            background-repeat: no-repeat;
-            background-size:100% 100%;
-            background-position: center;
-            top: 0;
-            right: 0;
-            z-index:-1;
-            position: absolute;
+    .beats-wrapp:hover{
+        background:$primary-main;
+        color: $primary-white;
     }
+   
     .fixed-second:hover .explor-the-market__link li a:hover{
         background: $primary-main;
         color: #fff;
     }
 }
 
-/*.explor-the-market__wrapper .icon-d{
+.header-top-img{
+    position: absolute;
+    z-index: 2;
+    top: 1%;
+    right: 1%;
+    width: 100px;
+    height: 100px;
+}
+.header-top-img img{
+    width: 100%;
+    height: 100%;
+}
+.explor-the-market__wrapper .icon-d{
     display: block;
-     transition: all 0.5s ease-in-out
+    transition: all 0.6s ease-in-out;
+}
+.explor-the-market__wrapper:hover .icon-d{
+    display: none;
+    transition: all 0.6s ease-in-out;
 }
 
 .explor-the-market__wrapper .icon-w{
     display: none;
-     transition: all 0.5s ease-in-out
+    transition: all 0.6s ease-in-out;
 }
-
-.explor-the-market__wrapper:hover .icon-d{
-    display: none;
-     transition: all 0.5s ease-in-out
-}
-
 .explor-the-market__wrapper:hover .icon-w{
     display: block;
-     transition: all 0.5s ease-in-out
-}*/
+    transition: all 0.6s ease-in-out;
+}
 /********************How-it-works*************/
 .How-it-works{
     &__wrapper{
